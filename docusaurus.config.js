@@ -1,41 +1,41 @@
 module.exports = {
-  title: "E-Salesman Help Center",
-  tagline: "ศูนย์ช่วยเหลือระบบ E-Salesman",
-  url: "https://esalesman.net",
-  baseUrl: "/helpcenter/",
-  onBrokenLinks: "throw",
-  favicon: "img/favicon-esalesman.png",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  title: 'E-Onlineshop Help Center',
+  tagline: 'ศูนย์ช่วยเหลือระบบ E-Onlineshop',
+  url: 'https://eonlineshop.net',
+  baseUrl: '/helpcenter/',
+  onBrokenLinks: 'throw',
+  favicon: 'img/favicon-eonlineshop.png',
+  organizationName: 'IARC', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Help Center",
+      title: 'Help Center',
       logo: {
-        alt: "My Site Logo",
-        src: "img/favicon-esalesman.png",
+        alt: 'My Site Logo',
+        src: 'img/favicon-eonlineshop.png',
       },
       items: [
         {
-          href: "https://esalesman.net/",
-          label: "ระบบ E-Salesman",
-          position: "left",
+          href: 'https://eonlineshop.net/',
+          label: 'ระบบ E-Onlineshop',
+          position: 'left',
         },
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "วิธีการใช้งาน",
-          position: "left",
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'วิธีการใช้งาน',
+          position: 'left',
         },
-        { to: "blog", label: "ประกาศ", position: "left" },
+        { to: 'blog', label: 'ประกาศ', position: 'left' },
         {
-          href: "https://facebook.com/iarc.psu",
-          label: "Facebook",
-          position: "right",
+          href: 'https://facebook.com/iarc.psu',
+          label: 'IARC@PSU',
+          position: 'right',
         },
       ],
     },
     footer: {
-      style: "dark",
+      style: 'dark',
       // links: [
       //   {
       //     title: 'Docs',
@@ -81,15 +81,15 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} ESalesman, ศูนย์ส่งเสริมอุตสาหกรรมภาค 11 และ ศูนย์วิจัยระบบอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} E-Onlineshop, ศูนย์ส่งเสริมอุตสาหกรรมภาค 11 และ ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
     },
   },
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
@@ -98,12 +98,12 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
   ],
-};
+}

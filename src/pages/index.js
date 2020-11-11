@@ -12,8 +12,8 @@ const features = [
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        ดูคู่มือการใช้งานระบบ E-Salesman ผ่านเว็บไซต์ หลักเกณณ์ วิธีสมัคร
-        การรับเงินส่วนแบ่ง วิธีการขายสินค้า{' '}
+        ดูคู่มือการใช้งานระบบ E-Onlineshop ผ่านเว็บไซต์ หลักเกณณ์ วิธีสมัคร
+        ลงทะเบียนใช้งาน วิธีการซื้อสินค้า วิธีการขายสินค้า{' '}
       </>
     ),
   },
@@ -34,7 +34,7 @@ function Feature({ imageUrl, title, description }) {
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
-        <div className="text--center">
+        <div className='text--center'>
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
@@ -50,12 +50,12 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description='Description will go into a meta tag in <head />'
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className='container'>
+          <h1 className='hero__title'>{siteConfig.title}</h1>
+          <p className='hero__subtitle'>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -72,8 +72,8 @@ function Home() {
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
-              <div className="row">
+            <div className='container'>
+              <div className='row'>
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}

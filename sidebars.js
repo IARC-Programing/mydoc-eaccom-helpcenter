@@ -1,7 +1,8 @@
 module.exports = {
   someSidebar: {
-    สำหรับผู้ซื้อ: ['intro', 'buy', 'register'],
-    สำหรับขาย: ['trade', 'revenuerequest', 'question'],
+    เริ่มต้น: ['intro', 'price'],
+    สำหรับผู้ซื้อ: ['buy'],
+    สำหรับขาย: [],
     นโยบาย: ['policy', 'condition', 'contact'],
   },
 }

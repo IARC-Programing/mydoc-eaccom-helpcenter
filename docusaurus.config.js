@@ -26,7 +26,7 @@ module.exports = {
           label: 'วิธีการใช้งาน',
           position: 'left',
         },
-        { to: 'blog', label: 'ประกาศ', position: 'left' },
+        { to: 'blog', label: 'อัพเดทข่าวสาร', position: 'left' },
         {
           href: 'https://facebook.com/iarc.psu',
           label: 'IARC@PSU',

@@ -6,6 +6,8 @@ module.exports = {
       'merchant/managementLandingPage',
       'merchant/managementUser',
       'merchant/managementCategory',
+      'merchant/managementArticle',
+      'merchant/managementShipping',
     ],
 
     นโยบาย: ['policy', 'condition', 'price', 'contact'],

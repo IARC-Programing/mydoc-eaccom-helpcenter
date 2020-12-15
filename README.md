@@ -1,4 +1,11 @@
-# Website
+# E-OnlineShop HelpCenter
+
+![EOnlineHelpCenterDeployment](https://github.com/IARC-Programing/eonline-helpcenter/workflows/EOnlineHelpCenterDeployment/badge.svg)
+
+Help Center and Manual Website for E-OnlineShop https://eonlineshop.net/helpcenter
+Build with Docusaurus 2 Static Site Generator
+
+---
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 

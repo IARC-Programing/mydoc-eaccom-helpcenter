@@ -19,11 +19,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Build
-        run: |
-          npm ci
-          npm run build
-
       # First SSH is do something before copy and Last SSH is do something after copy
       - name: Copy with SCP To Remote Host
         uses: cross-the-world/scp-pipeline@v1.1.0

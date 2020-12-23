@@ -8,8 +8,16 @@ module.exports = {
       'merchant/managementCategory',
       'merchant/managementArticle',
       'merchant/managementShipping',
+      'merchant/managementStock',
     ],
 
-    นโยบาย: ['policy', 'condition', 'price', 'contact'],
+    นโยบาย: [
+      'policy',
+      'condition',
+      'price',
+      'cookies',
+      'removedata',
+      'contact',
+    ],
   },
 }

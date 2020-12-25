@@ -1,8 +1,6 @@
-# E-OnlineShop HelpCenter
+# E-Accom HelpCenter
 
-![EOnlineHelpCenterDeployment](https://github.com/IARC-Programing/eonline-helpcenter/workflows/EOnlineHelpCenterDeployment/badge.svg)
-
-Help Center and Manual Website for E-OnlineShop https://eonlineshop.net/helpcenter
+Help Center and Manual Website for E-Accom https://eaccom.net/helpcenter
 Build with Docusaurus 2 Static Site Generator
 
 ---

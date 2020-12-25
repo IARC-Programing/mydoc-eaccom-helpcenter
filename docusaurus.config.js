@@ -1,23 +1,23 @@
 module.exports = {
-  title: 'E-Onlineshop Help Center',
-  tagline: 'ศูนย์ช่วยเหลือระบบ E-Onlineshop',
-  url: 'https://eonlineshop.net',
+  title: 'E-Accom Help Center',
+  tagline: 'ศูนย์ช่วยเหลือระบบ E-Accom',
+  url: 'https://eaccom.net',
   baseUrl: '/helpcenter/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon-eonlineshop.png',
+  favicon: 'img/favicon-eaccom.png',
   organizationName: 'IARC', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'EAccom HelpCenter', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Help Center',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/favicon-eonlineshop.png',
+        src: 'img/favicon-eaccom.png',
       },
       items: [
         {
-          href: 'https://eonlineshop.net/',
-          label: 'ระบบ E-Onlineshop',
+          href: 'https://eaccom.net/',
+          label: 'ระบบ E-Accom',
           position: 'left',
         },
         {
@@ -81,7 +81,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} E-Onlineshop, ศูนย์ส่งเสริมอุตสาหกรรมภาค 11 และ ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} E-Accom, ศูนย์ส่งเสริมอุตสาหกรรมภาค 10 และ ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
     },
   },
   presets: [

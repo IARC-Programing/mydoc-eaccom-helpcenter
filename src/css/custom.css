@@ -8,13 +8,13 @@
 /* You can override the default Infima variables here. */
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 :root {
-  --ifm-color-primary: rgb(244, 131, 4);
-  --ifm-color-primary-dark: rgb(229, 131, 19);
-  --ifm-color-primary-darker: rgb(215, 130, 35);
-  --ifm-color-primary-darkest: rgb(61, 33, 1);
-  --ifm-color-primary-light: rgb(245, 147, 35);
-  --ifm-color-primary-lighter: rgb(247, 162, 67);
-  --ifm-color-primary-lightest: rgb(254, 240, 224);
+  --ifm-color-primary: #483d8b;
+  --ifm-color-primary-dark: #3f357a;
+  --ifm-color-primary-darker: #2d2657;
+  --ifm-color-primary-darkest: #1b1734;
+  --ifm-color-primary-light: #5f559a;
+  --ifm-color-primary-lighter: #8d86b7;
+  --ifm-color-primary-lightest: #e8e7f1;
   --ifm-code-font-size: 95%;
 }
 

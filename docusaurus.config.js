@@ -81,7 +81,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} E-Accom, ศูนย์ส่งเสริมอุตสาหกรรมภาค 10 และ ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} E-Accom, ศูนย์วิจัยระบบอัตโนมัติอัจฉริยะ มหาวิทยาลัยสงขลานครินทร์ Built with Docusaurus.`,
     },
   },
   presets: [

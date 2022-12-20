@@ -1,5 +1,5 @@
 ---
-title: E-Salesman Help Center
+title: E-Accom Help Center
 author: Admin
 author_title: Intelligent Automation Research Center
 author_url: https://iarc.psu.ac.th

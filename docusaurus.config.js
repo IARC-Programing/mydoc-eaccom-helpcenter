@@ -1,41 +1,41 @@
 module.exports = {
-  title: 'E-Accom Help Center',
-  tagline: 'ศูนย์ช่วยเหลือระบบ E-Accom',
-  url: 'https://eaccom.net',
-  baseUrl: '/helpcenter/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon-eaccom.png',
-  organizationName: 'IARC', // Usually your GitHub org/user name.
-  projectName: 'EAccom HelpCenter', // Usually your repo name.
+  title: "E-Accom Help Center",
+  tagline: "ศูนย์ช่วยเหลือระบบ E-Accom",
+  url: "https://eaccom.net",
+  baseUrl: "/helpcenter/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon-eaccom.png",
+  organizationName: "IARC", // Usually your GitHub org/user name.
+  projectName: "EAccom HelpCenter", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Help Center',
+      title: "Help Center",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/favicon-eaccom.png',
+        alt: "My Site Logo",
+        src: "img/favicon-eaccom.png",
       },
       items: [
         {
-          href: 'https://eaccom.net/',
-          label: 'ระบบ E-Accom',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "วิธีการใช้งาน",
+          position: "left",
+        },
+        { to: "blog", label: "อัพเดทข่าวสาร", position: "left" },
+        {
+          href: "https://eaccom.net/",
+          label: "เว็บหลักระบบ",
+          position: "right",
         },
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'วิธีการใช้งาน',
-          position: 'left',
-        },
-        { to: 'blog', label: 'อัพเดทข่าวสาร', position: 'left' },
-        {
-          href: 'https://facebook.com/iarc.psu',
-          label: 'IARC@PSU',
-          position: 'right',
+          href: "https://facebook.com/iarc.psu",
+          label: "IARC@PSU",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       // links: [
       //   {
       //     title: 'Docs',
@@ -86,10 +86,10 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
@@ -98,12 +98,12 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
-}
+};

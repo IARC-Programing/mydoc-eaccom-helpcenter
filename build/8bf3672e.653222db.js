@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{80:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"E-Salesman Help Center","permalink":"/helpcenter/blog/hi"}]}')}}]);

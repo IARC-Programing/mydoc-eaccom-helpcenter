@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{77:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release Note Version 2.1.20","permalink":"/helpcenter/blog/rn-2.1.20"},{"title":"E-Accom Help Center","permalink":"/helpcenter/blog/hi"}]}')}}]);

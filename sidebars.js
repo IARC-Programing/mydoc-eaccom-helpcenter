@@ -13,6 +13,7 @@ module.exports = {
       "meetingroom/add-service",
       "meetingroom/payment-add",
     ],
+    จัดการเว็บไซต์: ["website/article"],
 
     นโยบาย: ["policy", "condition", "cookies", "contact"],
   },

@@ -1,18 +1,18 @@
 module.exports = {
-  title: "E-Accom Help Center",
-  tagline: "ศูนย์ช่วยเหลือระบบ E-Accom",
+  title: "E-Accom",
+  tagline: "ระบบบริหารจัดการโรงแรม รีสอร์ท E-Accom",
   url: "https://eaccom.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/favicon-eaccom.png",
+  favicon: "/img/favicon-eaccom.png",
   organizationName: "IARC", // Usually your GitHub org/user name.
   projectName: "EAccom HelpCenter", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Help Center",
+      title: "E-Accom",
       logo: {
         alt: "My Site Logo",
-        src: "img/favicon-eaccom.png",
+        src: "/img/favicon-eaccom.png",
       },
       items: [
         {
@@ -23,13 +23,13 @@ module.exports = {
         },
         { to: "blog", label: "อัพเดทข่าวสาร", position: "left" },
         {
-          href: "https://eaccom.net/",
-          label: "เว็บหลักระบบ",
+          href: "https://iarc.psu.ac.th",
+          label: "เกี่ยวกับศูนย์วิจัย",
           position: "right",
         },
         {
           href: "https://facebook.com/iarc.psu",
-          label: "IARC@PSU",
+          label: "Facebook",
           position: "right",
         },
       ],

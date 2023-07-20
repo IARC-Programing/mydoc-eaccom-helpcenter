@@ -2,7 +2,7 @@ module.exports = {
   title: "E-Accom Help Center",
   tagline: "ศูนย์ช่วยเหลือระบบ E-Accom",
   url: "https://eaccom.net",
-  baseUrl: "/helpcenter/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon-eaccom.png",
   organizationName: "IARC", // Usually your GitHub org/user name.

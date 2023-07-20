@@ -13,8 +13,13 @@ module.exports = {
       "meetingroom/add-service",
       "meetingroom/payment-add",
     ],
-    จัดการเว็บไซต์: ["website/article"],
-
+    จัดการเว็บไซต์: [
+      "website/article",
+      "website/header-footer",
+      "website/main-menu",
+      "website/look-and-feel",
+      "website/gallery-and-file",
+    ],
     นโยบาย: ["policy", "condition", "cookies", "contact"],
   },
 };

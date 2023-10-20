@@ -29,6 +29,7 @@ module.exports = {
       "component-type/horizontal-list",
       "component-type/text-content",
     ],
+    การตั้งค่า: ["setting/line-notify"],
     นโยบาย: ["policy", "condition", "cookies", "contact"],
   },
 };

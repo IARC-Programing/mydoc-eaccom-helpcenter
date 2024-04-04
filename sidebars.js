@@ -13,6 +13,7 @@ module.exports = {
       "meetingroom/add-service",
       "meetingroom/payment-add",
     ],
+    การจองห้องพัก: ["booking/seperate-document"],
     จัดการเว็บไซต์: [
       "website/article",
       "website/header-footer",
